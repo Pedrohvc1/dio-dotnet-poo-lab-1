@@ -1,4 +1,5 @@
 using System;
+using System.Globalization;
 
 namespace DIO.Bank
 {
@@ -21,40 +22,44 @@ namespace DIO.Bank
 
 		public bool Sacar(double valorSaque)
 		{
-            // Validação de saldo suficiente
-            if (this.Saldo - valorSaque < (this.Credito *-1)){
-                Console.WriteLine("Saldo insuficiente!");
-                return false;
-            }
-            this.Saldo -= valorSaque;
+			// Validação de saldo suficiente
+			if (this.Saldo - valorSaque < (this.Credito * -1))
+			{
+				Console.WriteLine("	Saldo insuficiente!");
+				return false;
+			}
 
-            Console.WriteLine("Saldo atual da conta de {0} é {1}", this.Nome, this.Saldo);
-            // https://docs.microsoft.com/pt-br/dotnet/standard/base-types/composite-formatting
+			this.Saldo -= valorSaque;
+			Console.WriteLine("	<<<< Saque realizado com sucesso!! >>>>\n");
 
-            return true;
+			Console.WriteLine("	Saldo atual da conta de {0} é: {1}", this.Nome, this.Saldo);
+			// https://docs.microsoft.com/pt-br/dotnet/standard/base-types/composite-formatting
+
+			return true;
 		}
 
 		public void Depositar(double valorDeposito)
 		{
 			this.Saldo += valorDeposito;
 
-            Console.WriteLine("Saldo atual da conta de {0} é {1}", this.Nome, this.Saldo);
+			Console.WriteLine("	Saldo atual da conta de {0} é {1}", this.Nome, this.Saldo);
 		}
 
 		public void Transferir(double valorTransferencia, Conta contaDestino)
 		{
-			if (this.Sacar(valorTransferencia)){
-                contaDestino.Depositar(valorTransferencia);
-            }
+			if (this.Sacar(valorTransferencia))
+			{
+				contaDestino.Depositar(valorTransferencia);
+			}
 		}
 
-        public override string ToString()
+		public override string ToString()
 		{
-            string retorno = "";
-            retorno += "TipoConta " + this.TipoConta + " | ";
-            retorno += "Nome " + this.Nome + " | ";
-            retorno += "Saldo " + this.Saldo + " | ";
-            retorno += "Crédito " + this.Credito;
+			string retorno = "";
+			retorno += "TipoConta: " + this.TipoConta + " | ";
+			retorno += "Nome: " + this.Nome + " | ";
+			retorno += "Saldo: " + this.Saldo.ToString("F2", CultureInfo.InvariantCulture) + " | ";
+			retorno += "Crédito: " + this.Credito.ToString("F2", CultureInfo.InvariantCulture);
 			return retorno;
 		}
 	}

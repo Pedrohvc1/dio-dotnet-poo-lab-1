@@ -11,3 +11,16 @@
 /home/eliezer/sandbox/dio/DIO.Bank/obj/Debug/netcoreapp3.1/DIO.Bank.dll
 /home/eliezer/sandbox/dio/DIO.Bank/obj/Debug/netcoreapp3.1/DIO.Bank.pdb
 /home/eliezer/sandbox/dio/DIO.Bank/obj/Debug/netcoreapp3.1/DIO.Bank.genruntimeconfig.cache
+D:\ADS\Projetos\Forks\dio-dotnet-poo-lab-1\bin\Debug\netcoreapp3.1\DIO.Bank.exe
+D:\ADS\Projetos\Forks\dio-dotnet-poo-lab-1\bin\Debug\netcoreapp3.1\DIO.Bank.deps.json
+D:\ADS\Projetos\Forks\dio-dotnet-poo-lab-1\bin\Debug\netcoreapp3.1\DIO.Bank.runtimeconfig.json
+D:\ADS\Projetos\Forks\dio-dotnet-poo-lab-1\bin\Debug\netcoreapp3.1\DIO.Bank.runtimeconfig.dev.json
+D:\ADS\Projetos\Forks\dio-dotnet-poo-lab-1\bin\Debug\netcoreapp3.1\DIO.Bank.dll
+D:\ADS\Projetos\Forks\dio-dotnet-poo-lab-1\bin\Debug\netcoreapp3.1\DIO.Bank.pdb
+D:\ADS\Projetos\Forks\dio-dotnet-poo-lab-1\obj\Debug\netcoreapp3.1\DIO.Bank.csprojAssemblyReference.cache
+D:\ADS\Projetos\Forks\dio-dotnet-poo-lab-1\obj\Debug\netcoreapp3.1\DIO.Bank.AssemblyInfoInputs.cache
+D:\ADS\Projetos\Forks\dio-dotnet-poo-lab-1\obj\Debug\netcoreapp3.1\DIO.Bank.AssemblyInfo.cs
+D:\ADS\Projetos\Forks\dio-dotnet-poo-lab-1\obj\Debug\netcoreapp3.1\DIO.Bank.csproj.CoreCompileInputs.cache
+D:\ADS\Projetos\Forks\dio-dotnet-poo-lab-1\obj\Debug\netcoreapp3.1\DIO.Bank.dll
+D:\ADS\Projetos\Forks\dio-dotnet-poo-lab-1\obj\Debug\netcoreapp3.1\DIO.Bank.pdb
+D:\ADS\Projetos\Forks\dio-dotnet-poo-lab-1\obj\Debug\netcoreapp3.1\DIO.Bank.genruntimeconfig.cache

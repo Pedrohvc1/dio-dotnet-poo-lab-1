@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4fp4a5O5cwwwcbv/iruEo1QO4dK0VJIKS2oWHwY/JnCWW187HuLZbkz7Z4mR8EoYUlZ0Nrk7wrUSP1uybDeQUw==",
+  "dgSpecHash": "jmkPY2qGNdvJTiHi53Cr42g5jo+r32qAD2J+ia5lEk0qxuJDHT++Tx/7ZB0kazzPz+NRLl75ZlzrukN7oe8mmA==",
   "success": true,
-  "projectFilePath": "/home/eliezer/sandbox/dio/DIO.Bank/DIO.Bank.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\ADS\\Projetos\\Forks\\dio-dotnet-poo-lab-1\\DIO.Bank.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\WINDOWS\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
   "logs": []
 }
